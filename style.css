@@ -36,4 +36,18 @@ li {
 }
 .item-title {
   font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px #e03131;
+  margin-bottom: 70px;
+}
+.wrapper {
+  max-width:  1000px;
+  padding: 90px 16px 150px 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+#header {
+  width: 100%;
+  min-height: 100vh;
+  bac
 }
