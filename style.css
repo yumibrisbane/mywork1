@@ -49,5 +49,26 @@ li {
 #header {
   width: 100%;
   min-height: 100vh;
-  bac
+  background-image: url();
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 30px 40px;
+  position: relative;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+nav li {
+  margin-left: 30px;
+}
+nav li a {
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  filter: drop-shadow(1px 1px 2px #121212);
+}
+nav li a:hover {
+  color: #e03131;
 }
