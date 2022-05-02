@@ -72,3 +72,24 @@ nav li a {
 nav li a:hover {
   color: #e03131;
 }
+menu{
+  margin-top: 20px;
+}
+#menu .menu-img {
+  background-image: url();
+  position: relative;
+}
+#menu .menu-content {
+  display: flex;
+}
+#menu .menu-item {
+  width: 50%;
+  padding: 0 45px;
+}
+#menu .menu-item:first-child {
+  border-right: solid 1px #000;
+}
+#menu .menu-item dl{
+  display: flex;
+  flex-wrap: wrap;
+}
